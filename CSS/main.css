@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@media(orientation: landscape){
+    .card{
+        width: 49%;
+    }
+}
+
+@media(orientation: portrait){
+    .container{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card{
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 10px;
+    border-radius: 4px;
+    
+
+}
+
+.card-title{
+    padding: 10px;
+}
+
+.card-title h1{
+    font-weight: 400;
+    
+}
+
+.card-body{
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.bt{
+    border-top: 3px solid rgb(245, 51, 83);
+}
+
